@@ -4,7 +4,8 @@ let incremetB=document.getElementById("incrementBtn");
 
 let counterValue=0;
 
-incrementB.addListener("click",()=>{
+incrementB.addEventListener("click",()=>{
 	console.log(`${counterValue}`);
 	 counterValue++;
-})
+	 counterB.textContent = counterValue;
+});
