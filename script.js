@@ -2,7 +2,7 @@
 function increment(){
 			var count=document.getElementById("counter");
 			var current=parseInt(count.innerText);
-		alert(current);
+		    alert(current);
 			count.innerText=current +1;
 }
 /*let counterB=document.getElementById("counter");
