@@ -5,7 +5,7 @@ let incrementB=document.getElementById("incrementBtn");
 let counterValue=0;
 
 incrementB.addEventListener("click",()=>{
-	 alert(`${counterValue}`);
+	 alert(`${parseInt(counterValue)}`);
 	 counterValue++;
 	 counterB.innerHTML = parseInt(counterValue);
 });
