@@ -7,5 +7,5 @@ let counterValue=0;
 incrementB.addEventListener("click",()=>{
 	 alert(`${counterValue}`);
 	 counterValue++;
-	 counterB.innerHTML = counterValue;
+	 counterB.innerHTML = parseInt(counterValue);
 });
